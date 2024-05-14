@@ -1,0 +1,40 @@
+.red {
+  background-color: red;
+  border: 25px solid darkred;
+}
+.innerred {
+  background-color: lightcoral;
+  height: 50%;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 25px solid gold;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.inneryellow {
+  background-color: lightyellow;
+  height: 50%;
+  width: 50%;
+}
+
+.green {
+  background-color: green;
+  border: 25px solid darkgreen;
+  align-items: flex-end;
+}
+.innergreen {
+  background-color: lightgreen;
+  height: 50%;
+  width: 50%;
+}
+.size {
+  height: 200px;
+  width: 200px;
+  margin: 25px;
+  display: flex;
+}
